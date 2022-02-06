@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Classement</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <a href="index.html">
+            <button id="menu" class="bouttons_haut" type="button"> Menu </button>
+        </a>
+
+        <a href="classement.html">
+            <button id="classement" class="bouttons_haut" type="button"> Classement </button>
+        </a>
+
+        <div class="affiche_score">
+            <ul>
+                <li>
+                    <a class="noms">Nom:</a>
+                    <a class="scores"> Score: </a>
+                </li>
+            {% for v in valeurs %}
+                <li>
+                    <a class="noms"> {{ v[0] }}  </a>
+                    <a class="scores"> {{ v[1] }} </a>    
+                </li>
+            {% endfor %}
+            </ul>
+		</div>
+
+    </body>
+</html>

@@ -1,0 +1,138 @@
+*{
+    background-color: #f0f0f0;
+}
+
+canvas{
+    border-bottom: 2px solid black;
+    position: absolute;
+    top : 75px;
+    left: 0%;
+}
+
+.bouttons_haut:hover{
+    background-color:rgb(209, 209, 209);
+}
+
+.bouttons_haut{
+    border:none;
+    border-bottom :2px solid #000;
+    font-family : Verdana;
+    font-size: 300%;
+    width: 50%;
+    height: 75px;
+    top:0%;
+}
+
+#menu{
+    position: absolute;
+    left:0%;
+    border-right: 2px solid black;
+}
+
+#classement{
+    position: absolute;
+    left: 50%;
+}
+
+.div_bas{
+    position: absolute;
+    font-family: Verdana;
+}
+
+#score{
+    left:39%;
+    top: 80%;
+    font-family : Verdana;
+    font-size: 500%;
+}
+
+#temps_restant{
+    left:35%;
+    top: 92%;
+    font-size: 200%;
+}
+
+#commencer{
+    position: absolute;
+    top: 35%;
+    left:41%;
+    width: 250px;
+    height: 100px;
+    background-color: rgb(37, 207, 22);
+    font-family: Verdana;
+    font-size: 200%;
+    border: 2px solid black;
+}
+
+#commencer:hover{
+    background-color: rgb(17, 187, 2);
+}
+
+#fin{
+    font-family: Verdana;
+    font-size: 400%;
+    position:absolute;
+    left:30%;
+    top:35%;
+}
+
+#envoie_score{
+    position: absolute;
+    left: 30%;
+    top:45%;
+    width: 45%;
+    height: 3%;
+}
+
+#input_username{
+    padding-left: 15%;
+    font-family: Verdana;
+    font-size: 100%;
+    border: 1px solid gray;
+    width: 35%;
+    height: 37px;
+}
+
+#input_username:focus {
+    background-color: rgb(209, 209, 209);
+    border: 1px solid black;
+}
+
+#bouton_score{
+    position: inherit;
+    font-family: Verdana;
+    font-size: 100%;
+    left: 61%;
+    width: 150px;
+    height: 40px;;
+    border: 1px solid gray;
+}
+
+#bouton_score:hover{
+    background-color: rgb(209, 209, 209);
+    border: 1px solid black;
+    
+}
+
+ul{
+    position: absolute;
+    top:8%;
+    left:-3%;
+    width: 100%;
+
+}
+
+li{
+    padding-left: 1%;
+    width: 99.2%;
+    border-bottom: 2px solid black;
+    list-style-type: none;
+    font-family: Verdana;
+    font-size: 150%;
+}
+
+.scores{
+    position: absolute;
+    left:45%;
+    border-left: 2px solid black;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Menu</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <canvas height="500" width="1080"></canvas>
+        <a href="index.html"> 
+            <button id="menu" class="bouttons_haut" type="button"> Menu </button> 
+        </a>
+
+        <a href="classement.html"> 
+            <button id="classement" class="bouttons_haut" type="button"> Classement </button>
+        </a>
+
+        <div id="score" class="div_bas"></div>
+        <div id="temps_restant" class="div_bas"></div>
+        <button id="commencer" onclick="game()"> Commencer </button>
+
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    </body>
+</html>
